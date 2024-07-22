@@ -15,7 +15,7 @@ SoundBeep, 300, 200
 SoundBeep, 400, 200
 
 ;HOTKEYS
-key_stay_on	    := 	"F1"	; self explanatory		
+key_stay_on	    := 	"up"	; self explanatory		
 key_hold_mode	:= 	"F2"	; scan will only scan if "key_hold" is pressed
 key_fastclick 	:= 	"F3"	; self explanatory (on/off beep sound only)
 key_burstclick  :=  "F4"    ; self explanatory
@@ -28,13 +28,13 @@ key_hold	    :=	"LALT" 	; key that you hold to scan (example "T")
 pixel_box	    := 3		    ; Keep between min 3 and max 8		
 pixel_sens	    := 20	        ; higher/lower = more/less color sensitive 		
 pixel_color	    := 0xA145A3     ; yellow="0xFEFE40", purple="0xA145A3" 
-lowerreacttb    := 160          ; lowest delay tb ; for best use 150, 200, for more human 160, 300, and rage 10,11
-upperreacttb    := 300          ; highest delay tb
-lowerspam       := 10           ; lowest delay slow   
-upperspam       := 20           ; highest delay fast
-burstcount      := 3            ; x times
-burstbullettimel:= 20
-burstbullettimeu:= 30
+lowerreacttb    := 20          ; lowest delay tb ; for best use 150, 200, for more human 160, 300, and rage 10,11
+upperreacttb    := 30          ; highest delay tb
+lowerspam       := 5           ; lowest delay slow   
+upperspam       := 10           ; highest delay fast
+burstcount      := 20            ; x times
+burstbullettimel:= 60
+burstbullettimeu:= 100
 bursttimingl    := 150
 bursttimingu    := 170
 
